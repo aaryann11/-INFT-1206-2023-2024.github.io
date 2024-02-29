@@ -9,7 +9,7 @@ div {
   height: 200px;
   line-height: 200px;
   text-align: center;
-  font-size: 17.5px ;   /* Increasing the font size slightly using rems (calculated as 17.5px = 1.1rem) */
+  font-size: 17.5px ;   /*  Increasing the font size slightly using rems (calculated as 17.5px = 1.1rem) */
   background-color: red;
   color: #ffff;
   text-shadow: 1px 1px 1px black ;

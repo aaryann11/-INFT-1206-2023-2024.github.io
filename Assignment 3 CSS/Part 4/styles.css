@@ -1,32 +1,32 @@
-body {
+body {  /* doing proper formatting in a boady */
     background-color: #fff;
     color: #333;
     margin: 0;
     font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
   }
 
-  img {
+  img {  /* doing proper positioning of images */
       max-width: 100%;
       display: block;
       float: left;
       margin-right: 20px;
   }
   
-  .logo {
+  .logo {  /* having a logo attached properly */
     font-size: 200%;
     padding: 50px 20px;
     margin: 0 auto;
     max-width: 980px;
   }
   
-  .grid {
+  .grid {   /* doing proper arrangement of the grid */
     margin: 0 auto;
     padding: 0 20px;
     max-width: 980px;
     display: flex;
   }
   
-  nav {
+  nav {   /* navigation of the column or list of menu options */
     background-color: #000;
     padding: .5em;
     position: -webkit-sticky; /* Safari */
@@ -36,35 +36,35 @@ body {
     z-index: 1000;
   }
   
-  nav ul {
+  nav ul {   /* formatting it  */
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
   }
 
-  nav li{
+  nav li{   /* list */
     margin-right: 198px;
   }
   
-  nav a {
+  nav a {   /* poper formatting */ 
     color: #fff;
     text-decoration: none;
     padding: .5em 1em;
   }
 
-  article{
+  article{   /* formatting and arranging it properly */
     flex: 1;
     margin-top: 50px;
 
   }
 
-  aside{
+  aside{  /* doing proper gap between the images and fonts */
     flex: 0 0 250px;
     margin-top: 50px;
   }
   
-  .photos {
+  .photos {  /* adjusting the width of the images and all */
     list-style: none;
     margin: 0;
     padding: 0;
@@ -72,10 +72,10 @@ body {
     grid-template-columns: repeat(2, 1fr);
     gap: 2px
   }
-  .photos img{
+  .photos img{   /* width of the images */
     width: 100%;
   }
 
-  .feature {
+  .feature {    /* formatting the  width of the feature of the website */
       width: 200px;
   }
